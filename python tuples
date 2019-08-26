@@ -1,4 +1,5 @@
-n = int(raw_input())
-t = tuple(map(int, raw_input().split()))
+if __name__ == '__main__':
 
-print hash(t)
+   n = int(input())
+   l = map(int, input().strip().split(" "))
+   print(hash(tuple(l)))
